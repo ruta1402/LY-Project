@@ -1,0 +1,30 @@
+.signUp {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-lightcyan);
+  text-align: left;
+}
+.button,
+.hovertrue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  border-radius: var(--br-980xl);
+  background-color: var(--color-steelblue);
+  box-shadow: 0 2px 4px rgba(136, 144, 194, 0.2),
+    0 5px 15px rgba(37, 44, 97, 0.15);
+  overflow: hidden;
+  padding: var(--padding-4xl) var(--padding-13xl);
+}
+.hovertrue {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10xs) 0;
+  background-color: transparent;
+}

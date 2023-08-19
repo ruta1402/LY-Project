@@ -1,0 +1,113 @@
+.tailorMadePlans,
+.traveltailor {
+  position: absolute;
+  left: 0;
+  line-height: 100%;
+  display: inline-block;
+}
+.traveltailor {
+  text-decoration: none;
+  top: 0;
+  font-weight: 700;
+  color: inherit;
+  width: 203px;
+  height: 44px;
+}
+.tailorMadePlans {
+  top: 44px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-source-sans-3);
+  color: var(--color-mediumturquoise);
+  width: 267px;
+  height: 14px;
+}
+.frameChild,
+.traveltailorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 267px;
+  height: 58px;
+}
+.frameChild {
+  height: 68.52%;
+  width: 18.91%;
+  right: 6.55%;
+  bottom: 31.48%;
+  left: 74.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameParent {
+  position: absolute;
+  top: 41px;
+  left: 29px;
+  width: 267px;
+  height: 58px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 522.16px;
+  left: 985.44px;
+  width: 454.56px;
+  height: 501.84px;
+}
+.vectorIcon1 {
+  top: 521.65px;
+  left: 0;
+  width: 429.54px;
+  height: 502.35px;
+}
+.roundButton,
+.roundButton1 {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.roundButton {
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.roundButton1 {
+  left: 121px;
+}
+.roundButtonParent {
+  position: absolute;
+  top: 21px;
+  left: 1151px;
+  width: 274px;
+  height: 98px;
+}
+.ourPersonalisedTravel {
+  position: absolute;
+  top: 200px;
+  left: 178px;
+  font-size: 64px;
+  line-height: 100%;
+  font-family: var(--font-source-sans-3);
+  color: var(--color-steelblue);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1062px;
+}
+.learnMore {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-lobster-two);
+}

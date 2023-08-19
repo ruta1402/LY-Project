@@ -1,0 +1,73 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid var(--color-paleturquoise);
+  box-sizing: border-box;
+  width: 513px;
+  height: 214px;
+}
+.frameItem {
+  left: 549px;
+  border: 5px solid var(--color-lightcyan);
+  height: 205px;
+}
+.createYourPerfect {
+  top: 26px;
+  left: 67px;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  width: 378px;
+  height: 86px;
+}
+.createYourPerfect,
+.discoverNewExperiences,
+.findLocalExperiences,
+.travelYourWay {
+  margin: 0;
+  position: absolute;
+  line-height: 100%;
+  display: inline-block;
+}
+.discoverNewExperiences {
+  top: 26px;
+  left: 599px;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  width: 414px;
+  height: 86px;
+}
+.findLocalExperiences,
+.travelYourWay {
+  top: 83px;
+  left: 28px;
+  font-size: var(--font-size-17xl);
+  font-weight: 400;
+  font-family: var(--font-source-sans-3);
+  color: var(--color-mediumturquoise);
+  width: 462px;
+  height: 131px;
+}
+.findLocalExperiences {
+  top: 74px;
+  left: 578px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 617px;
+  left: 189px;
+  width: 1062px;
+  height: 214px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-lobster-two);
+}

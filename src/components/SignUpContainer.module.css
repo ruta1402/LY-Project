@@ -1,0 +1,29 @@
+.roundButton {
+  border-radius: var(--br-8xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  padding: var(--padding-base);
+  justify-content: center;
+}
+.roundButton,
+.roundButton1,
+.roundButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.roundButton1 {
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  padding: var(--padding-base);
+  justify-content: center;
+  margin-left: -16px;
+}
+.roundButtonParent {
+  position: absolute;
+  top: 21px;
+  left: 1151px;
+  width: 274px;
+  height: 98px;
+  justify-content: flex-start;
+}

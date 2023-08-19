@@ -1,0 +1,33 @@
+.getStarted {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 32px;
+  font-weight: 700;
+  font-family: var(--font-source-sans-3);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.content {
+  position: absolute;
+  top: 16px;
+  left: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.basicsolidLargeBase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumturquoise);
+  width: 245px;
+  height: 64px;
+}

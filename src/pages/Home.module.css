@@ -1,0 +1,114 @@
+.tailorMadePlans,
+.traveltailor {
+  margin: 0;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.traveltailor {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  width: 203px;
+  height: 44px;
+}
+.tailorMadePlans {
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  font-family: var(--font-source-sans-3);
+  color: var(--color-mediumturquoise);
+  width: 267px;
+  height: 14px;
+}
+.traveltailorParent {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: relative;
+  width: 50.5px;
+  height: 39.74px;
+  margin-left: -68px;
+}
+.frameParent {
+  position: absolute;
+  top: 41px;
+  left: 29px;
+  width: 267px;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.vectorIcon {
+  position: absolute;
+  top: 522.16px;
+  left: 985.44px;
+  width: 454.56px;
+  height: 501.84px;
+}
+.unleashYourWanderlust1,
+.vectorIcon1 {
+  position: absolute;
+  top: 521.65px;
+  left: 0;
+  width: 429.54px;
+  height: 502.35px;
+}
+.unleashYourWanderlust1 {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.unleashYourWanderlust {
+  position: absolute;
+  top: 318px;
+  left: 182px;
+  width: 1076px;
+  height: 168px;
+  font-size: 96px;
+  font-family: var(--font-source-sans-3);
+}
+.getStartedButton,
+.learnMoreButton {
+  position: absolute;
+  top: 125px;
+  left: 538px;
+  width: 245px;
+  height: 64px;
+}
+.getStartedButton {
+  left: 282px;
+}
+.frame,
+.home {
+  overflow: hidden;
+}
+.frame {
+  position: absolute;
+  top: 318px;
+  left: 182px;
+  width: 1076px;
+  height: 200px;
+}
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-lobster-two);
+}

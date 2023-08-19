@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-source-sans-3: "Source Sans 3";
+  --font-lobster-two: "Lobster Two";
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-steelblue: #07588a;
+  --color-mediumturquoise: #6ac1b8;
+  --color-lightcyan: #e1f6f4;
+  --color-paleturquoise: #bfe9db;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-10xs: 3px;
+  --padding-4xl: 23px;
+  --padding-13xl: 32px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-8xs: 5px;
+  --br-980xl: 999px;
+  --br-41xl: 60px;
+}
